@@ -6,5 +6,5 @@ function destructivelyAppendDriver(name) {
 }
 
 function appendDriver(name) {
-  [drivers.slice(0, 3)]
+  return [drivers.slice(0, 3)]
 }
