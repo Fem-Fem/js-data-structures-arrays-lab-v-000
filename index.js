@@ -11,13 +11,10 @@ function appendDriver(name) {
 
 function destructivelyPrependDriver(name) {
   drivers.unshift(name)
-  // drivers
 }
 
 function prependDriver(name) {
-  // return drivers
-  // return name
-  return [name, ...drivers.slice(1, 3)]
+  return [name, ...drivers.slice(0, 3)]
 }
 
 function destructivelyRemoveLastDriver() {
