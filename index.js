@@ -19,7 +19,7 @@ function PrependDriver(name) {
 }
 
 function destructivelyRemoveLastDriver() {
-  drivers.shift()
+  drivers.pop()
   drivers
 }
 
