@@ -22,3 +22,8 @@ function destructivelyRemoveLastDriver() {
   drivers.shift()
   drivers
 }
+
+function RemoveLastDriver() {
+  drivers.shift()
+  drivers
+}
