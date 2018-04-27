@@ -8,3 +8,7 @@ function destructivelyAppendDriver(name) {
 function appendDriver(name) {
   return [...drivers.slice(0, 3), 'Broom']
 }
+
+function destructivelyPrependDriver(name) {
+  drivers.unshift("Ralph")
+}
