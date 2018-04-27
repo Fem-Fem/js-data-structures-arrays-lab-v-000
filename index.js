@@ -24,10 +24,9 @@ function destructivelyRemoveLastDriver() {
 }
 
 function removeLastDriver() {
-  
+
 }
 
 function removeFirstDriver() {
-  drivers.shift()
-  drivers
+  drivers.slice(1, 2)
 }
