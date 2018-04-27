@@ -11,7 +11,7 @@ function appendDriver(name) {
 
 function destructivelyPrependDriver(name) {
   drivers.unshift("Garfield")
-  drivers
+  // drivers
 }
 
 function PrependDriver(name) {
