@@ -15,7 +15,7 @@ function destructivelyPrependDriver(name) {
 }
 
 function PrependDriver(name) {
-  [name]
+  return drivers.slice(1, 3)
 }
 
 function destructivelyRemoveLastDriver() {
