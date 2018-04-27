@@ -6,16 +6,16 @@ function destructivelyAppendDriver(name) {
 }
 
 function appendDriver(name) {
-  return [...drivers.slice(0, 3), 'name']
+  return [...drivers.slice(0, 3), name]
 }
 
 function destructivelyPrependDriver(name) {
-  drivers.unshift("name")
+  drivers.unshift(name)
   // drivers
 }
 
 function PrependDriver(name) {
-  drivers.unshift("name")
+  drivers.unshift(name)
 }
 
-function destructivelyRemoveLastDriver()
+function destructivelyRemoveLastDriver() {}
